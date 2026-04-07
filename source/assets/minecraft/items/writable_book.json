@@ -13,6 +13,13 @@
           "type": "minecraft:model",
           "model": "minecraft:item/cabal_land_ticket_claim"
         }
+      },
+      {
+        "threshold": 910003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cabal_claim_expansion_slot"
+        }
       }
     ]
   }

@@ -9,6 +9,12 @@
         "custom_model_data": 910002
       },
       "model": "item/cabal_land_ticket_claim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 910003
+      },
+      "model": "item/cabal_claim_expansion_slot"
     }
   ]
 }
