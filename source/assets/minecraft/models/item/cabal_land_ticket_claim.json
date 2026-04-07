@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/land_ticket_claim"
+    "layer0": "item/land_deed"
   }
 }
