@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/claim_expanstion_book"
+    "layer0": "item/claim_expanstion_book",
+    "layer1": "misc/enchanted_server_item_green"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/land_ticket_slot"
+    "layer0": "item/land_ticket_slot",
+    "layer1": "misc/enchanted_server_item"
   }
 }
