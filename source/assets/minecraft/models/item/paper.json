@@ -1,14 +1,14 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/writable_book"
+    "layer0": "item/paper"
   },
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 910002
+        "custom_model_data": 910003
       },
-      "model": "item/cabal_land_ticket_claim"
+      "model": "item/cabal_claim_expansion_slot"
     }
   ]
 }
