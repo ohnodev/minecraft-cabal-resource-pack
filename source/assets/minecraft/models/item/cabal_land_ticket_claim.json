@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/land-deed"
+    "layer0": "item/land-deed",
+    "layer1": "item/enchanted_server_128_red"
   }
 }
