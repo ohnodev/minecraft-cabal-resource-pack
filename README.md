@@ -4,7 +4,10 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
 
 - Pack zip for server delivery: `cabal-land-ticket-pack.zip`
 - Editable source files: `source/`
+- Includes v1 custom icons for the first two custom server items:
+  - Land Ticket Slot
+  - Land Claim Transfer Ticket
 
 Current `sha1`:
 
-`c3a0f6a019a75df112d2ab326721457747fbd34e`
+`1baaa7980fd411dea701c4db54e0257803031026`
