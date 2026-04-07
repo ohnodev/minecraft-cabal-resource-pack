@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 910001
+      },
+      "model": "item/cabal_land_ticket_slot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 910002
+      },
+      "model": "item/cabal_land_ticket_claim"
+    }
+  ]
+}
