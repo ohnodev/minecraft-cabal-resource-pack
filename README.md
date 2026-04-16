@@ -11,4 +11,4 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
 
 Current `sha1`:
 
-`f271fac9084465ca4d2b87ee16cc8977afc2d805`
+`902f89f1b8101ba59297746f2f9eba1c98edca94`
