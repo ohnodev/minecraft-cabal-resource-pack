@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "item/land-deed",
-    "layer1": "item/server-custom-texture"
+    "layer1": "item/server-custom-texture",
+    "layer2": "item/cabal_ticket_glow_overlay"
   }
 }
