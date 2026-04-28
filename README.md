@@ -13,6 +13,8 @@ Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla
 
 **Glow / “light”:** Resource packs can stack extra **`item/generated` layers** (see `cabal_ticket_glow_overlay`) for a luminous look. Vanilla Java **does not** let held items cast real block light or dynamic world illumination from a pack alone; the server already enables **enchantment glint** on those stacks for extra sparkle.
 
-Current `sha1`:
+Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`902f89f1b8101ba59297746f2f9eba1c98edca94`
+`2d51d838b213b71e78c3a4539bbff300a409983a`
+
+Pinned Git revision for `raw.githubusercontent.com` URLs (server `server.properties`): `b6924fad7212049a7e44526d3e3c08cfd6612aca`
