@@ -8,8 +8,8 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Land Ticket Slot
   - Land Claim Transfer Ticket
   - Evoker Eye
-- **Maze walls / warden shell** — **`minecraft:bedrock`** uses the **vanilla** texture (this pack does not override bedrock).
-- **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze style so **bedrock** and **`minecraft:coal_block`** stay **vanilla** everywhere (the old approach retextured coal blocks and looked like “custom bedrock” on any coal block).
+- **Maze walls / warden shell** — this pack overrides **`minecraft:bedrock`** with the Cabal **green animated** block texture (subtle shimmer via `bedrock.png.mcmeta`). That applies **everywhere** bedrock appears in the world, not only the maze; the Cabal overworld maze is almost the only bedrock players see day-to-day.
+- **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze start look. **`minecraft:coal_block`** stays **vanilla** (the older approach retextured coal and looked like custom bedrock on any coal ore/build).
 
 Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla `minecraft:map` / `writable_book` / `paper` with `custom_model_data` (910001–910003). This pack only swaps **models/textures** — no new item IDs.
 
@@ -28,6 +28,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`fc975cb75a151b4b81797a57b1ce34329d0a610e`
+`06060b99742ff3b25256f2d4669641201c3deddc`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
