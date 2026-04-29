@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 84,
-    "description": "Cabal: tickets + Cabal bedrock (walls/warden) + green coal_block (maze start)"
+    "description": "Cabal: tickets + green coal_block (maze start); maze bedrock uses vanilla texture"
   }
 }
