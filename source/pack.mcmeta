@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 84,
-    "description": "Cabal: custom item icons (tickets, evoker eye) + Cabal bedrock (maze warden shell)"
+    "description": "Cabal: tickets + Cabal bedrock (walls/warden) + green coal_block (maze start)"
   }
 }
