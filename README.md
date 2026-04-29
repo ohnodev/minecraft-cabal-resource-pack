@@ -28,6 +28,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`964d97370de5a143e32829ae850e34b5eb0606d5`
+`2ac3f1cf819891e742e0532741c0c0d919ee4005`
 
 Pinned commit for `raw.githubusercontent.com/.../cabal-land-ticket-pack.zip` (update `server.properties` when the zip changes): `77e1be9b4b72db73c0f069a44095b8414a9b211a`
