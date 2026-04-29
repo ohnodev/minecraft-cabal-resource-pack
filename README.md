@@ -29,4 +29,4 @@ Current `sha1` of `cabal-land-ticket-pack.zip`:
 
 `bd0f8d0ce57c8c969020ddbf058099972877d224`
 
-After you push, pin `resource-pack` in `server.properties` to the **commit** that contains that zip (see `server/server.properties.template` in the `minecraft-cabal` repo for the full URL pattern).
+Pinned commit for `raw.githubusercontent.com/.../cabal-land-ticket-pack.zip` (update `server.properties` when the zip changes): `a79b08ab8043654ba40bb759005a33b014203586`
