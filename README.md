@@ -8,12 +8,12 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Land Ticket Slot
   - Land Claim Transfer Ticket
   - Evoker Eye
-- **Maze walls / warden shell** — uses vanilla **`minecraft:bedrock`** appearance (no pack override). The maze RCON builder fills walls and the warden blast shell with bedrock; players see default gray bedrock. The maze warden entity is spawned by the **cabal-maze** server mod (not a resource-pack texture).
-- **Maze start (green “bedrock”)** — vanilla resource packs only apply **one texture per block ID**, so the maze **start** cell uses **`minecraft:coal_block`** instead of a second bedrock style. This pack replaces `textures/block/coal_block.png` with a **green-tinted bedrock-style** texture. Elsewhere in the world, normal coal blocks will look like that texture for players using the pack.
+- **Maze walls / warden shell** — **`minecraft:bedrock`** uses the **vanilla** texture (this pack does not override bedrock).
+- **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze style so **bedrock** and **`minecraft:coal_block`** stay **vanilla** everywhere (the old approach retextured coal blocks and looked like “custom bedrock” on any coal block).
 
 Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla `minecraft:map` / `writable_book` / `paper` with `custom_model_data` (910001–910003). This pack only swaps **models/textures** — no new item IDs.
 
-Placed **blocks** cannot use `custom_model_data` (that is an **item** predicate). The Cabal look for the maze **start** marker uses **`coal_block.png`**; maze power pads use vanilla colored concrete (see `cabal-maze`).
+Placed **blocks** cannot use `custom_model_data` (that is an **item** predicate). The Cabal look for the maze **start** marker uses **`light_blue_concrete.png`**; maze power pads use vanilla colored concrete (see `cabal-maze`).
 
 **Glow / “light”:** Resource packs can stack extra **`item/generated` layers** (see `cabal_ticket_glow_overlay`) for a luminous look. Vanilla Java **does not** let held items cast real block light or dynamic world illumination from a pack alone; the server already enables **enchantment glint** on those stacks for extra sparkle.
 
@@ -28,6 +28,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`aac720d05d9af60befcfd9b954950522a76854d6`
+`fc975cb75a151b4b81797a57b1ce34329d0a610e`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).

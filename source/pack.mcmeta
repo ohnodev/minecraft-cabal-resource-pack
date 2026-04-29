@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 84,
-    "description": "Cabal: tickets + green coal_block (maze start); roaming maze warden is server-spawned (cabal-maze)"
+    "description": "Cabal: tickets; maze start uses custom light_blue_concrete (bedrock + coal vanilla)"
   }
 }
