@@ -15,7 +15,7 @@ Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla
 
 Placed **blocks** cannot use `custom_model_data` (that is an **item** predicate). The Cabal look for the maze **start** marker uses **`light_blue_concrete.png`**; maze power pads use vanilla colored concrete (see `cabal-maze`).
 
-**Glow / “light”:** Resource packs can stack extra **`item/generated` layers** (see `cabal_ticket_glow_overlay`) for a luminous look. Vanilla Java **does not** let held items cast real block light or dynamic world illumination from a pack alone; the server already enables **enchantment glint** on those stacks for extra sparkle.
+Ticket models are intentionally flat now (no extra glow overlay layers), so Land Ticket / Land Deed / Expansion Slot icons render without the ring aura.
 
 ## Build the zip (from `source/`)
 
@@ -28,6 +28,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`06060b99742ff3b25256f2d4669641201c3deddc`
+`9309608688f53f8e41e03bfb851b14b77d95e6ae`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
