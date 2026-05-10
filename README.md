@@ -8,9 +8,9 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Land Ticket Slot
   - Land Claim Transfer Ticket
   - Evoker Eye
-- **Maze walls / warden shell** — this pack overrides **`minecraft:bedrock`** with the Cabal **green animated** block texture (subtle shimmer via `bedrock.png.mcmeta`). That applies **everywhere** bedrock appears in the world, not only the maze; the Cabal overworld maze is almost the only bedrock players see day-to-day.
+- **Maze walls / warden shell** — this pack overrides **`minecraft:bedrock`** with a high-contrast animated glow bedrock texture (`bedrock.png` + `bedrock.png.mcmeta`). That applies everywhere bedrock appears in the world.
 - **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze start look. **`minecraft:coal_block`** stays **vanilla** (the older approach retextured coal and looked like custom bedrock on any coal ore/build).
-- **TikTok TNT minigame** — this pack remaps **`minecraft:diamond_block`** model faces to TNT textures (`tnt_top`, `tnt_side`, `tnt_bottom`) for a high-contrast flashy arena fill.
+- **TikTok TNT minigame** — this pack overrides **`minecraft:diamond_block`** with a custom animated flashy texture (`diamond_block_flashy.png` + `.mcmeta`) for sparse arena targets.
 
 Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla `minecraft:map` / `writable_book` / `paper` with `custom_model_data` (910001–910003). This pack only swaps **models/textures** — no new item IDs.
 
@@ -29,6 +29,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`2e1e06a4164820b5d113779ba6c276ad3e6de022`
+`0455adbd30b2e43e5345e2eae52f255bef32327f`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).

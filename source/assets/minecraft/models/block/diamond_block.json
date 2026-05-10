@@ -1,11 +1,6 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "down": "minecraft:block/tnt_bottom",
-    "up": "minecraft:block/tnt_top",
-    "north": "minecraft:block/tnt_side",
-    "south": "minecraft:block/tnt_side",
-    "west": "minecraft:block/tnt_side",
-    "east": "minecraft:block/tnt_side"
+    "all": "minecraft:block/diamond_block_flashy"
   }
 }
