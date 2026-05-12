@@ -16,5 +16,23 @@
         "stream": false
       }
     ]
+  },
+  "cabal.chicken_riser": {
+    "subtitle": "Cabal chicken riser",
+    "sounds": [
+      {
+        "name": "cabal/chicken_riser",
+        "stream": false
+      }
+    ]
+  },
+  "cabal.chicken_impact": {
+    "subtitle": "Cabal chicken impact",
+    "sounds": [
+      {
+        "name": "cabal/chicken_impact",
+        "stream": false
+      }
+    ]
   }
 }
