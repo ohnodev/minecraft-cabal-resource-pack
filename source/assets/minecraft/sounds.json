@@ -1,0 +1,20 @@
+{
+  "cabal.nuke_alarm": {
+    "subtitle": "Cabal nuke alarm",
+    "sounds": [
+      {
+        "name": "cabal/nuke_alarm",
+        "stream": false
+      }
+    ]
+  },
+  "cabal.nuke_boom": {
+    "subtitle": "Cabal nuke detonation",
+    "sounds": [
+      {
+        "name": "cabal/nuke_boom",
+        "stream": false
+      }
+    ]
+  }
+}
