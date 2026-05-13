@@ -43,5 +43,23 @@
         "stream": false
       }
     ]
+  },
+  "cabal.box_ping": {
+    "subtitle": "Cabal box ping",
+    "sounds": [
+      {
+        "name": "cabal/box_ping",
+        "stream": false
+      }
+    ]
+  },
+  "cabal.box_heartbeat": {
+    "subtitle": "Cabal box heartbeat",
+    "sounds": [
+      {
+        "name": "cabal/box_heartbeat",
+        "stream": false
+      }
+    ]
   }
 }
