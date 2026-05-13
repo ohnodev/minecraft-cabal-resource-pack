@@ -8,9 +8,9 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Land Ticket Slot
   - Land Claim Transfer Ticket
   - Evoker Eye
-- **Maze walls / warden shell** — this pack overrides **`minecraft:bedrock`** with a high-contrast animated glow bedrock texture (`bedrock.png` + `bedrock.png.mcmeta`). That applies everywhere bedrock appears in the world.
+- **Bedrock and diamond** — currently kept **vanilla** (custom overrides are disabled for now).
 - **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze start look. **`minecraft:coal_block`** stays **vanilla** (the older approach retextured coal and looked like custom bedrock on any coal ore/build).
-- **TikTok TNT minigame** — this pack overrides **`minecraft:diamond_block`** with a custom animated flashy texture (`diamond_block_flashy.png` + `.mcmeta`) for sparse arena targets.
+- **TikTok TNT minigame** — `minecraft:diamond_block` is currently vanilla.
 
 Server tickets use the **same technique as cabal-claim**: stacks stay as vanilla `minecraft:map` / `writable_book` / `paper` with `custom_model_data` (910001–910003). This pack only swaps **models/textures** — no new item IDs.
 
@@ -29,6 +29,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`0fbe68091109683a9eed6a258ac21b477a828b78`
+`957822f3d05bdc73a6ae45672501cffa5009b3ee`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
