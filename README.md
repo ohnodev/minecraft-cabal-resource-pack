@@ -29,6 +29,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`41b76c570d46b36d816f0c6f7adca0a8c150eb58`
+`b0bafedef32b964359f11e1a354e5b6c492e4ced`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
