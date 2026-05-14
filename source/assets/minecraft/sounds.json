@@ -61,5 +61,14 @@
         "stream": false
       }
     ]
+  },
+  "cabal.box_win": {
+    "subtitle": "Cabal box win",
+    "sounds": [
+      {
+        "name": "cabal/box_win",
+        "stream": false
+      }
+    ]
   }
 }
