@@ -71,6 +71,15 @@
       }
     ]
   },
+  "cabal.round_lost": {
+    "subtitle": "Cabal round lost",
+    "sounds": [
+      {
+        "name": "cabal/round_lost",
+        "stream": false
+      }
+    ]
+  },
   "cabal.prison_tick": {
     "subtitle": "Cabal prison tick",
     "sounds": [
