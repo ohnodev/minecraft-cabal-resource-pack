@@ -8,6 +8,8 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Land Ticket Slot
   - Land Claim Transfer Ticket
   - Evoker Eye
+  - Heart Fragment (echo_shard CMD 910004)
+  - Cabal Heart (ghast_tear CMD 910004)
 - **Bedrock and diamond** — currently kept **vanilla** (custom overrides are disabled for now).
 - **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze start look. **`minecraft:coal_block`** stays **vanilla** (the older approach retextured coal and looked like custom bedrock on any coal ore/build).
 - **TikTok TNT minigame** — `minecraft:diamond_block` is currently vanilla.
@@ -29,6 +31,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`4291af2a835184a15b9f3ae203a712b5dfc491ae`
+`103b0ed106ca1cf3b6e85c30c59a18f09dbbac36`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
