@@ -10,7 +10,8 @@ This repository hosts the public resource pack zip used by the Cabal Minecraft s
   - Evoker Eye
   - Heart Fragment (echo_shard CMD 910004)
   - Cabal Heart (ghast_tear CMD 910004)
-- **Bedrock and diamond** — currently kept **vanilla** (custom overrides are disabled for now).
+- **Bedrock** — green animated Cabal bedrock override (`textures/block/bedrock.png`).
+- **Diamond** — currently kept **vanilla** (custom override disabled for now).
 - **Maze start (Cabal pattern)** — the maze RCON builder marks the **start** cell with **`minecraft:light_blue_concrete`**. This pack replaces `textures/block/light_blue_concrete.png` with the Cabal maze start look. **`minecraft:coal_block`** stays **vanilla** (the older approach retextured coal and looked like custom bedrock on any coal ore/build).
 - **TikTok TNT minigame** — `minecraft:diamond_block` is currently vanilla.
 
@@ -31,6 +32,6 @@ Point `server.properties` at `cabal-land-ticket-pack.zip` on `raw.githubusercont
 
 Current `sha1` of `cabal-land-ticket-pack.zip`:
 
-`234d0357ca66f4f426c2054ca72bfb3323961745`
+`5aaacae44a5a08d7b1d9db47af1b4e75284069ad`
 
 To pin a **raw.githubusercontent.com** URL, use the git commit on `main` that contains the rebuilt `cabal-land-ticket-pack.zip` with this hash (this repo’s `main` after you push the change that updated the zip).
